@@ -65,7 +65,7 @@ void insert(){
 	string name;
 	
 	cout << endl;
-	cout << "Existing array list: ";
+	cout << "Existing list: ";
 	
 	for(int i = 0; i < length; i++){
 		cout << arr[i];
@@ -84,7 +84,7 @@ void insert(){
 	length++;
 	
 	cout << endl << endl;
-	cout << "New array list: ";
+	cout << "New list: ";
 	
 	for(int k = 0; k < length; k++){
 		cout << arr[k];
@@ -105,7 +105,7 @@ void del(){
 	
 	int index;
 	
-	cout << "Existing array list: ";
+	cout << "Existing list: ";
 	
 	for(int i = 0; i < length; i++){
 		cout << arr[i];
@@ -135,7 +135,7 @@ void del(){
 	}
 	
 	cout << endl << endl;
-	cout << "New array list: ";
+	cout << "New list: ";
 	
 	for(int i = 0; i < length; i++){
 		cout << arr[i];
@@ -162,7 +162,7 @@ void retrieve(){
 		length++;
 	}
 	
-	cout << "Existing array list: ";
+	cout << "Existing list: ";
 	
 	for(int i = 0; i < length; i++){
 		cout << arr[i];
